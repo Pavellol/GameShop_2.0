@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GameStoreShop_2.props" />
+</Project>

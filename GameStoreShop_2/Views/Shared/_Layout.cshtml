@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/css/HeaderAndBar.css" rel="stylesheet" asp-append-version="true" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="main">    
+        <div class="header">
+            <a href="#default" class="logo">GameStore - магазин компьютерных игр</a>
+       
+        </div>
+    </div>
+  
+    <div class="sidenav">
+        <a href="#about">About</a>
+    </div>
+
+    <div class="col-xs-8">
+        @RenderBody()
+    </div>
+</body>
+</html>
